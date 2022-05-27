@@ -180,7 +180,7 @@ module Onetime
         def expiration_options
           if @expiration_options.nil?
             selected = (!sess || !sess.authenticated?) ? 7.days : 7.days
-            #disabled = (!sess || !sess.authenticated?) ? 7.days : plan.options[:ttl]
+            disabled = (!sess || !sess.authenticated?) ? 7.days : plan.options[:ttl]
             @expiration_options = []
             if self[:authenticated]
               if plan.options[:ttl] > 30.days
