@@ -207,6 +207,7 @@ module Onetime
               { :value => 1.hour, :name => "1 hour"},
               { :value => 30.minutes, :name => "30 minutes"},
               { :value => 5.minutes, :name => "5 minutes"},
+              { :value => 2.minutes, :name => "2 minutes"}
             ]
           end
           @expiration_options
