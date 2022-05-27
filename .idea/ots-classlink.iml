@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ots-terraform" />
+    <orderEntry type="module" module-name="security-152613719916" />
   </component>
 </module>
