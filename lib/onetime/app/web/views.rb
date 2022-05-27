@@ -199,15 +199,13 @@ module Onetime
             @expiration_options.push *[
               { :value => 7.days, :name => "7 days", :default => true},
               { :value => 30.days, :name => "30 days"},
-              { :value => 13.days, :name => "13 days"},
               { :value => 3.days, :name => "3 days"},
               { :value => 1.day, :name => "1 day"},
               { :value => 12.hours, :name => "12 hours"},
               { :value => 4.hours, :name => "4 hours"},
               { :value => 1.hour, :name => "1 hour"},
               { :value => 30.minutes, :name => "30 minutes"},
-              { :value => 5.minutes, :name => "5 minutes"},
-              { :value => 2.minutes, :name => "2 minutes"}
+              { :value => 5.minutes, :name => "5 minutes"}
             ]
           end
           @expiration_options
