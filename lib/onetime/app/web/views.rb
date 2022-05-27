@@ -182,7 +182,7 @@ module Onetime
             selected = (!sess || !sess.authenticated?) ? 7.days : 7.days
             disabled = (!sess || !sess.authenticated?) ? 7.days : plan.options[:ttl]
             @expiration_options = []
-            #if self[:authenticated]
+            if self[:authenticated]
               if plan.options[:ttl] > 30.days
                 @expiration_options.push *[
                   { :value => 90.days, :name => "3 months"},
@@ -195,11 +195,11 @@ module Onetime
               if plan.options[:ttl] >= 14.days
                 @expiration_options << { :value => 14.days, :name => "14 days"}
               end
-            #end
+            end
             @expiration_options.push *[
               { :value => 7.days, :name => "7 days", :default => true},
               { :value => 30.days, :name => "30 days"},
-              { :value => 15.days, :name => "15 days"},
+              { :value => 13.days, :name => "13 days"},
               { :value => 3.days, :name => "3 days"},
               { :value => 1.day, :name => "1 day"},
               { :value => 12.hours, :name => "12 hours"},
