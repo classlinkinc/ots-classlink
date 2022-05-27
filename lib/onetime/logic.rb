@@ -424,7 +424,7 @@ module Onetime
          if ['share', 'generate'].member?(params[:kind].to_s)
           @kind = params[:kind].to_s.to_sym
         end
-        @secret_value = kind == :share ? params[:secret] : Onetime::Utils.strand(24)
+        @secret_value = kind == :share ? params[:secret] : Onetime::Utils.strand(12)
         @passphrase = params[:passphrase].to_s
         params[:recipient] = [params[:recipient]].flatten.compact.uniq
         r = Regexp.new(/\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b/)
