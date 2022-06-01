@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../cloud-formation-templates/.idea/cloud-formation-templates.iml" filepath="$PROJECT_DIR$/../cloud-formation-templates/.idea/cloud-formation-templates.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ots-classlink.iml" filepath="$PROJECT_DIR$/.idea/ots-classlink.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ots-terraform/.idea/ots-terraform.iml" filepath="$PROJECT_DIR$/../ots-terraform/.idea/ots-terraform.iml" />
       <module fileurl="file://$PROJECT_DIR$/../security-152613719916/.idea/security-152613719916.iml" filepath="$PROJECT_DIR$/../security-152613719916/.idea/security-152613719916.iml" />
