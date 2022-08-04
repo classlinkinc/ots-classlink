@@ -1423,7 +1423,7 @@ textarea[disabled],
 input[readonly],
 select[readonly],
 textarea[readonly] {
-  cursor: not-allowed;
+  cursor: auto;
   background-color: #eeeeee;
 }
 
