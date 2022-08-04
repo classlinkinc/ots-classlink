@@ -8,5 +8,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ots-terraform" />
+    <orderEntry type="module" module-name="security-152613719916" />
+    <orderEntry type="module" module-name="cloud-formation-templates" />
+    <orderEntry type="module" module-name="cloud-formation-templates" />
   </component>
 </module>
