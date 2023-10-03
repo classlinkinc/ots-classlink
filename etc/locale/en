@@ -56,7 +56,7 @@
   :homepage:
     :tagline1: "Paste a password, secret message or private link below."
     :tagline2: "Keep sensitive info out of your email and chat logs."
-    :tagline3: "This site will be undergoing going maintenance on October 23rd at 8am. Any secrets that have yet to be consumed by that date will be removed due to an upgrade in this site's security."
+    :tagline3: "❗️This site will be undergoing going maintenance on October 23rd at 8am. Any secrets that have yet to be consumed by that date will be removed due to an upgrade in this site's security.❗️"
     :secret_hint: "* A secret link only works once and then disappears forever."
     :secret_form_more_text1: "Sign up for a"
     :secret_form_more_text2: "free account"
