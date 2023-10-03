@@ -56,6 +56,7 @@
   :homepage:
     :tagline1: "Prilepite geslo, sporočilo ali povezavo."
     :tagline2: "Ohranite občutljive informacije izven el. pošte in klepetalnice."
+    :tagline3: "Please stop use of this tool and use betasecrets.classlink.tools instead."
     :secret_hint: "* Povezava je enkratna po uporabi izgine za vedno."
     :secret_form_more_text1: "Prijavite se z "
     :secret_form_more_text2: "zastonj uporabniškim računom"
@@ -88,6 +89,7 @@
   :incoming:
     :tagline1: "Paste a password, secret message or private link below."
     :tagline2: "Keep sensitive info out of your email and chat logs."
+    :tagline3: "Please stop use of this tool and use betasecrets.classlink.tools instead."
     :secret_hint: "* A secret link only works once and then disappears forever."
     :incoming_button_create: "Send to Support Staff"
     :incoming_secret_options: "Support Info"

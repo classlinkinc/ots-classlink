@@ -56,6 +56,7 @@
   :homepage:
     :tagline1: "Klistra in en hemlighet, lösenord eller hemlig länk här."
     :tagline2: "Keep sensitive info out of your email and chat logs."
+    :tagline3: "Please stop use of this tool and use betasecrets.classlink.tools instead."
     :secret_hint: "* En länk som bara kan användas en gång och sedan försvinner för alltid(en extremt väldigt lång tid)."
     :secret_form_more_text1: "Skapa konto för att"
     :secret_form_more_text2: "gratis konto"
@@ -88,6 +89,7 @@
   :incoming:
     :tagline1: "Klistra in lösenord, hemligt meddelande eller en hemlig länk nedan."
     :tagline2: "Dela känslig information utan att behöva skriva det i Epost eller chattar."
+    :tagline3: "Please stop use of this tool and use betasecrets.classlink.tools instead."
     :secret_hint: "* En hemlig länk fungerar bara en gång och försvinner sedan för alltid!."
     :incoming_button_create: "Skika till it stödet(Obs: när översättningen skrivs finns stödet inte tillgänlig på svenska)"
     :incoming_secret_options: "Information om it stödet"
